@@ -64,11 +64,3 @@ main {
     }
   }
 }
-header {
-  .nav-link {
-    &:hover {
-      color: $secondary-color;
-      @include easeOut();
-    }
-  }
-}
